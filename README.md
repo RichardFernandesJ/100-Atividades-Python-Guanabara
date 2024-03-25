@@ -1,2 +1,3 @@
-# python-modulo01-ex001
- Curso de Python Curso em Video Modulo 01- Exercicio-001
+# Atividades Realizada do Curso de Python
+ **Curso de Python** Modulo 01 através do **Curso em Video** com o professor **Gustavo Guanabara**.
+ 
