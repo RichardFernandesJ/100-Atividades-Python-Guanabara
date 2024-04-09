@@ -22,6 +22,7 @@ while m != 5:
         else:
             print('O maior numero digitado foi {}.'.format(n2))
     if m == 4:
+        print('Informe os numero novamente:')
         n1 = int(input('Primeiro numero: '))
         n2 = int(input('Segundo numero: '))
     if m == 5:
