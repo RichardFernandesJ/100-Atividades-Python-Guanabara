@@ -8,11 +8,11 @@ for p in range(1,5):
     idade = int(input('Digite a Idade: ').strip())
     sexo = str(input('Informe o Sexo [M/F]: ').upper().strip())
     mID += idade
-    if idade > mvel:
+    if idade < 20 and sexo == 'F':
+        mm += 1
+    elif idade > mvel:
         nvel = nome
         mvel = idade
-    elif idade < 20 and sexo == 'F':
-        mm += 1
     print(mm)
 media = mID / 4
 print('A média de idade do grupo é de {:.1f} anos.'.format(media))
