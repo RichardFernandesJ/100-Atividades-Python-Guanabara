@@ -75,7 +75,7 @@ print(f"C) As mulheres cadastradas foram ", end='')
 #For responsavel por mostrar as mulheres cadastradas. 
 for mulher in mulheres:
     print(f" {mulher}", end=',')
-print("\n")
+print()
 
 
 #Imprime as pessoas que estão acima da media
