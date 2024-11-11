@@ -22,7 +22,7 @@ while True:
 
     #laço responsavel por recebe cada gol de cada partida
     for c, p in enumerate(range(0,qtd_part)):
-        gol.append(int(input(f"Quantos gols na partida {c}? ")))
+        gol.append(int(input(f"Quantos gols na partida {c+1}? ")))
 
     #jogador recebe a lista de gols no dict
     jogador['gols'] = gol
@@ -71,6 +71,6 @@ while True:
     else:
         print(f"-- LEVANTAMENTO DO JOGADOR {partida[resp]['nome']}")
         for p, g in enumerate(partida[resp]['gols']):
-            print(f"   No jogo {p} fez {g} gols.")
+            print(f"   No jogo {p+1} fez {g} gols.")
 #fim do codigo 
 
