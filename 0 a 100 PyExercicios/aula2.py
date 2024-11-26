@@ -22,3 +22,11 @@
 #r3 = somar(6)
 #print(f"Os resultados foram {r1} {r2} {r3}")
 
+valores = [3,5,6]
+count = 0
+for valor in valores:
+    count += 1
+    print(valor)
+total = count
+print("==_"*10)
+print(total)
